@@ -1,0 +1,15 @@
+.loadMoreAnchor {
+  height: 10px;
+  width: 10px;
+}
+
+.pokeList {
+  padding: 1em;
+  /* padding-top: 5em; */
+  /* height: 89vh; */
+  /* overflow-y: scroll; */
+}
+
+.pokeList > * {
+  margin-bottom: 1em;
+}

@@ -1,0 +1,40 @@
+/* Resets */
+.team-bar_nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.team-bar_nav li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.team-bar_nav {
+  background-color: crimson;
+  list-style: none;
+  padding: 0.5em 1em;
+  width: 100%;
+  position: fixed;
+  box-sizing: border-box;
+}
+
+.team-bar_list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.team-bar_item {
+  background-color: gainsboro;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-bar_item img {
+  width: max-content;
+  height: max-content;
+}

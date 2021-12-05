@@ -1,0 +1,18 @@
+.pokeCard {
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: calc(10px + 2vmin);
+  border-radius: 0.5rem;
+  padding: 0.25rem 1rem;
+}
+
+.pokeCard img{
+  margin-right: 0.25rem;
+}
+
+.pokeCard p{
+  text-transform: capitalize;
+}
