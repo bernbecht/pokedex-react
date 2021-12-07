@@ -3,3 +3,7 @@ export function isElemInView(el: any) {
   const { top } = el.getBoundingClientRect();
   return top <= window.innerHeight;
 }
+
+export function stopPropagation(event: any) {
+  event.stopPropagation();
+}
